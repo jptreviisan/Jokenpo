@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://static.vecteezy.com/system/resources/previews/005/217/222/original/gaming-background-blue-and-purple-with-element-vector.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button:hover {
+    opacity: 0.7;
+
+}
+
+#rock {
+    background-color: blue
+}
+
+#paper {
+    background-color: green;
+}
+
+#scissors {
+    background-color: blueviolet;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.your-score span {
+    color: darkred;
+}
+
+.machine-score span {
+    color: cyan;
+}
+
+.reset {
+    background-color: chartreuse;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
